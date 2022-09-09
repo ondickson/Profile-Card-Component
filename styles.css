@@ -69,6 +69,7 @@ body{
 .name{
     font-size: 18px;
     font-weight: 700;
+    color: var(--Very_dark_desaturated_blue);
 }
 
 /* age number */
@@ -81,7 +82,7 @@ body{
 
 /* city(London) */
 .city{
-    color: var(--Dark_gray);
+    color: var(--Dark_grayish_blue);
     font-size: 13px;
     margin-top: 0.5rem;
 }
@@ -101,15 +102,16 @@ hr{
     display: flex;
     justify-content: space-between;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 3rem;
     margin-bottom: 0.5rem;
 }
 
 /* Handle the numbers in social media */
 .stats{
     font-family: "Kumbh Sans";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 700;
+    color: var(--Very_dark_desaturated_blue);
 }
 
 /* Handle follower,Likes and Photos */
