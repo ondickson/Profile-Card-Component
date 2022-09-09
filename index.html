@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Profile card component</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <!-- Main card component -->
+  <main class="card-component">
+
+    <!-- Pattern image behind profile picture -->
+    <img class="bg-pattern" src="./images/bg-pattern-card.svg" alt="bg-pattern-card">
+    
+    <!-- All components inside the card except pattern image -->
+    <div class="details">
+
+      <!-- Profile picture -->
+      <img class="profile-pic" src="./images/image-victor.jpg" alt="profile-pic">
+    
+      <!-- Name, age and city -->
+      <div class="name">Victor Crest <span class="age-number">26</span></div>
+      <div class="city">London</div>
+    </div>
+    
+      <!-- Line separating the profile picture, name, age and city, and social media stats -->
+      <hr>
+      
+      <!-- Social media stats -->
+      <div class="social-media">
+        <div class="stats">80K<p class="media">Followers</p></div>
+        <div class="stats">803K<p class="media">Likes</p></div>
+        <div class="stats">1.4K<p class="media">Photos</p></div>
+      </div>
+  </main>
+
+  <!-- footer with programmer name and Website -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a><br>
+    Coded by <a href="https://www.frontendmentor.io/profile/ondickson/solutions" target="_blank">Dickson Owusu Nyantakyi</a>
+  </div>
+</body>
+</html>

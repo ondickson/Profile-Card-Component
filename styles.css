@@ -1,0 +1,142 @@
+/* Fonts used in the project */
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* Primary colors */
+    --Dark_cyan: hsl(185, 75%, 39%);
+    --Very_dark_desaturated_blue: hsl(229, 23%, 23%);
+    --Dark_grayish_blue: hsl(227, 10%, 46%);
+
+    /* Neutral colors */
+    --Dark_gray: hsl(0, 0%, 59%);
+}
+
+/* body of the website */
+body{
+    font-family: "Kumbh Sans", sans-serif, Arial;
+    background-color: var(--Dark_cyan);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin: auto;
+    min-height: 100vh;
+
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+}
+
+/*  handle the card component*/
+.card-component{
+    max-width: 320px;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px rgba(0,0,0,0.05);
+}
+
+/* all texts inside card component */
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -3.5rem;
+}
+
+/* Picture of victor crest */
+.profile-pic{
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid hsl(0, 0%, 100%);
+    margin-bottom: 0.8rem;
+}
+
+/* name */
+.name{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* age number */
+.age-number{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--Dark_gray);
+    padding-left: 5px;
+}
+
+/* city(London) */
+.city{
+    color: var(--Dark_gray);
+    font-size: 13px;
+    margin-top: 0.5rem;
+}
+
+/* Handle the line between city and stats */
+hr{
+    border: 0;
+    height: 2px;
+    width: 100%;
+    background-color: var(--Dark_gray);
+    margin: 1.3rem 0;
+    opacity: 15%;
+}
+
+/* Handle social media */
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 4rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Handle the numbers in social media */
+.stats{
+    font-family: "Kumbh Sans";
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Handle follower,Likes and Photos */
+.media{
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 1px;
+    color: var(--Dark_gray);
+}
+
+
+/* handle footer */
+.attribution { 
+    font-size: 9px; 
+    text-align: center; 
+    color: white;
+    
+}
+
+/* handle links in footer */
+.attribution a {
+    color: hsl(228, 100%, 6%); 
+    text-decoration: none;
+}
+
+/* make links in footer change color when
+    mouse hover on it */
+a:hover{
+    color: rgb(62, 255, 252);
+}
