@@ -84,7 +84,7 @@ body{
 .city{
     color: var(--Dark_grayish_blue);
     font-size: 13px;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
 }
 
 /* Handle the line between city and stats */
